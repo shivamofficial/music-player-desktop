@@ -1,0 +1,604 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+.nav-header
+{
+    height: 120px;
+    width: 87%;
+    
+    margin-left: 80px;
+    
+    position: fixed;
+    top: 0;left: 20px; right: 0; bottom: 0;
+    background: #000;
+   
+}
+.logo-title
+{
+    float: left;
+
+}
+.logo img {
+height: 70px;
+width:60px; 
+margin-left: 100px;
+margin-top: 30px;
+
+}
+.title h2{
+color: azure;
+font-size: 30px;
+font-style: italic;
+margin-left: 170px;
+margin-top: -60px;
+}
+.fav a {
+
+    text-decoration: none;
+}
+.fav a h2{
+    color: aliceblue;
+    font-style:italic;
+    font-family:monospace;
+    position: absolute;
+    left: 500px;
+    font-size: 20px;
+    top:40px;
+    
+}
+
+.search-box
+{
+  position: relative;
+  left: 370px;
+  top: 40px;
+}
+input[type=search]
+{
+    width: 30%;
+    height: 35px;
+  
+    box-sizing: border-box;
+    
+    font-family: inherit;
+    font-size: inherit;
+}
+.notification
+{
+
+
+position: absolute;
+margin-left: 75%;
+margin-top: 1%;
+}
+.notification i{
+    font-size: 29px;
+    border-radius: 50%; 
+    background-color: rgb(236, 241, 237);
+}
+.user-login
+{
+position: absolute;
+margin-left: 80%;
+
+
+}
+.user-login i
+{
+    font-size: 65px;
+    background-color: aliceblue;
+    border-radius: 50%; 
+
+}
+.slide-image-corousel
+{
+    background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width: 62%;
+    
+    margin-left: 100px;
+    margin-top: 107px;
+}
+.carousel-inner{
+    position: relative;
+    left: 30%;
+    top: 20px;
+    height: 330px;
+    width: 70%;
+  
+    
+}
+.rightarrow
+{
+    position: relative;
+    left: -350px;
+   top: -50px;
+}
+.carousel-indicators
+{
+    position: relative;
+    left:-100px;
+    top: 400px;
+}
+.scroll-img-1,.scroll-img-2,.scroll-img-3,.scroll-img-5,.scroll-img-6,.scroll-img-7,.scroll-img-8,.scroll-img-9
+{
+    width: 65%;
+    border-radius: 30%;
+    transition: all .2s ease-in-out; 
+   
+}
+.scroll-img-4
+{
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.scroll-img-1:hover,.scroll-img-2:hover,.scroll-img-3:hover,.scroll-img-4:hover,.scroll-img-5:hover,.scroll-img-5:hover,.scroll-img-7:hover,.scroll-img-8:hover,.scroll-img-9:hover
+{
+    transform: scale(1.1);
+}
+.container
+{
+    background-color: #001c3d;
+height: 190vh;
+
+
+}
+.cards{
+margin-top: -60px;
+
+}
+.latest-releases h1{
+    font-style: italic;
+    font-family: monospace;
+   box-sizing: border-box;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.card1-img
+{
+    position: relative;
+    top: 90px;
+    left: 55px;
+    border-radius: 20%;
+}
+.card1-heading
+{
+position: absolute;
+margin-left: 210px;
+color: white;
+width: 120px;
+margin-top: -5px;
+font-style: italic;
+font-family: monospace;
+}
+.card1-para{
+
+position: relative;
+left: 210px;
+color: aliceblue;
+font-style: italic;
+font-size: 20px;
+width: 200px;
+top: 20px;
+font-family: monospace;
+}
+.card1-icon
+{
+    position: relative;
+left: 418px;
+color: aliceblue;
+font-style: italic;
+top: -50px;
+font-size: 20px;
+
+}
+.music-time-card1
+{
+    position: relative;
+    left: 415px;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+   top: -50px;
+}
+
+.card2-img
+{
+    
+    position: relative;
+    top: -60px;
+    left: 505px;
+    border-radius: 20%;
+}
+.card2-heading
+{
+
+color: white;
+font-style: italic;
+font-family: monospace;
+position: absolute;
+margin-left: 630px;
+margin-top: -140px;
+
+}
+.card2-para{
+
+    position: relative;
+    left: 630px;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    width: 200px;
+    font-family: monospace;
+    top: -100px;
+    }
+    .card2-icon
+{
+    position: relative;
+left: 798px;
+color: aliceblue;
+font-style: italic;
+font-size: 20px;
+top: -187px;
+}
+.card2-musictime
+{
+    position: relative;
+    left: 794px;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    top: -180px;
+}
+.card3-img
+{
+    
+    position: relative;
+    left: 50px;
+    top: -100px;
+
+    border-radius: 20%;
+}
+.card3-heading
+{
+
+color: white;
+font-style: italic;
+font-family: monospace;
+position: relative;
+left: 200px;
+top: -200px;
+width: 200px;
+
+}
+.card3-para{
+
+ position:relative ;
+ left: 190px;
+ top: -190px;
+ width: 200px;
+ 
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+   
+    font-family: monospace;
+  
+    }
+    .card3-icon
+    {
+        position: relative;
+
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+left: 400px;
+top:-270px ;
+    }
+    .card3-musictime
+    {
+        position: relative;
+        left: 400px;
+        color: aliceblue;
+        font-style: italic;
+        font-size: 20px;
+        top: -260px;
+    }
+.card4-img
+{
+    
+    position: relative;
+    left: 500px;
+   top: -280px;
+
+    border-radius: 20%;
+}
+.card4-heading
+{
+
+color: white;
+font-style: italic;
+font-family: monospace;
+position: relative;
+left: 630px;
+top: -370px;
+width: 200px;
+
+}
+.card4-para{
+
+ position:relative ;
+ left: 630px;
+ top: -360px;
+ width: 200px;
+ 
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+   
+    font-family: monospace;
+  
+    }
+.card4-icon
+    {
+        position: relative;
+
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    left: 800px;
+    top: -440px;
+    }
+.card4-musictime
+    {
+        position: relative;
+    
+        color: aliceblue;
+        font-style: italic;
+        font-size: 20px;
+        left: 800px;
+top: -450px;
+    }
+    .popular-artists
+    {
+       
+        position: relative;
+        top: -400px;
+        left: 30px;
+        width: 65%;
+       
+    }
+    .popular-artist-content
+    {display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+      
+    }
+    .popular-artist-content img{
+        border-radius: 50%;
+    }
+    .music-station
+    {
+       
+        width: 65%;
+        position: relative;
+        top: -400px;
+        left: 30px;
+        display: flex;
+
+    }
+
+    .music-mood
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+       
+    }
+  .b-music-station
+  {
+  
+    width: 65%;
+    margin-left: 20px;
+    margin-top: -350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .b-music-station figure img:hover{
+    transform: scale(1.1);
+  }
+  .latest-songs
+  {
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .latest-song-div
+  {
+    margin-top: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Aside  */
+
+.section-2{
+    width: 25%;
+    height: 76vh;
+    position: fixed; 
+    overflow-y: scroll;
+    
+    top: 120px; right: 0; bottom: 100px; left:1030px;
+    background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+   
+   
+}
+
+/* PlayList Section  */
+
+.playlist{
+    margin-top: 5%;
+}
+
+.playlist-content {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media screen and (max-height:500px){
+    .playlist-content{
+        height: 25vh;
+    }
+}
+
+.playlist-content i:hover{
+    transform: scale(2);
+    color: red;
+}
+
+.content-left {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-right {
+    position: relative;
+    bottom: 60%;
+    left: 90%;
+    width: min-content;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.playlist-item {
+    width: 90%;
+    height: auto;
+    padding: 0px 1%;
+    box-sizing: border-box;
+    margin: 1%;
+    transition: all ease-in-out 0.1s;
+}
+
+/* footer */
+
+footer{
+    background: rgb(14, 203, 58);
+   width: 85%;
+   height: 8vh;
+   position: fixed;
+   left: 0;
+   right: 0;
+bottom: 0;
+   margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-img img{
+    width: 60px;
+    height: 50px;
+    border-radius: 40%;
+    margin-top: -15px;
+}
+.play-song-info{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.con-left {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+}.con-right {
+    display: flex;
+    left: 90%;
+    width: min-content;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+}
+
+.con-right i{
+    background: transparent;
+}
+/* Player Controls  */
+
+.player {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.player-contorls{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.player-contorls div, i{
+    background: transparent;
+}
+.time {
+    margin: 0px 10px;
+}
+
+.slide-ctr {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Extras */
+
+.extras{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.extras div, i{
+    background: transparent;
+}
